@@ -17,7 +17,7 @@ try {
     const [counter, setCounter] = React.useState(0);
     return (
       <div onClick={() => setCounter(counter + 1)}>
-        Change here doesn't! {counter}
+        Change here does not! {counter}
       </div>
     );
   };
